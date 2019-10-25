@@ -172,20 +172,14 @@ h4 {
   position: relative;
   margin-bottom: 125px;
 }
-.ba-post {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  color: #fff;
-}
 .ba-post__title {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 24px;
-	letter-spacing: 6px;
+  justify-content: flex-end;
+  z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 6px;
 }
 .ba-section-four {
   text-align: center;
