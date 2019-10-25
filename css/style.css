@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+
+body {
+  font: 300 16px/1.5 "Lato", sans-serif;
+  color: #000;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 930px;
+  max-width: 0 auto;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+textarea {
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.ba-section__border {
+  border: 2px solid #000;
+  padding: 75px 170px 50px;
+}
+.ba-section__title {
+  position: absolute;
+  text-align: center;
+  background: none;
+  color: #393939;
+  z-index: 1;
+  width: 415px;
+  left: 515px;
+}
+.ba-background {
+  background: url(../img/hero-bg.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 185px;
+  padding-bottom: 110px;
+}
+
+.ba-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.ba-header__logo {
+  margin-bottom: 95px;
+}
+.ba-header__title {
+  font-size: 54px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 12px;
+}
+
+.ba-header__subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.7;
+  color: #fff;
+  margin-bottom: 240px;
+}
+.ba-section-one {
+  text-align: center;
+  color: #393939;
+  padding-top: 160px;
+  position: relative;
+  margin-bottom: 160px;
+}
+.ba-section__title--one {
+  background: #fff;
+  top: 110px;
+}
+.ba-section-two {
+  background: url(../img/services.jpg) no-repeat;
+  background-size: content;
+  text-align: center;
+  color: #fff;
+  padding-top: 130px;
+  padding-bottom: 170px;
+  position: relative;
+  margin-bottom: 105px;
+}
+
+.ba-section__title--two {
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  top: 75px;
+}
+.ba-section__border--white {
+  border: 2px solid #fff;
+}
+.ba-section-three {
+  text-align: center;
+  font-size: 14px;
+  color: #393939;
+  position: relative;
+  margin-bottom: 115px;
+}
+.ba-section__title--three {
+  background: #fff;
+  top: -50px;
+}
+.ba-section__desing {
+  padding-top: 125px;
+  margin-bottom: 110px;
+}
+.ba-section__development {
+  margin-bottom: 90px;
+}
+.ba-section__product_management {
+  margin-bottom: 90px;
+}
+
+.ba-section-img {
+  position: relative;
+  margin-bottom: 125px;
+}
+.ba-post {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+}
+.ba-post__title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 6px;
+}
+.ba-section-four {
+  text-align: center;
+  color: #393939;
+  /* padding-top: 130px; */
+  position: relative;
+  margin-bottom: 65px;
+}
+
+.ba-section__title--four {
+  background: #fff;
+  top: -50px;
+}
+.ba-button {
+  text-decoration: none;
+  padding: 20px 140px;
+  background: #393939;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.ba-button:hover {
+  border: 1px solid #393939;
+  color: #393939;
+  background: none;
+}
+
+.ba-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 65px;
+}
+.ba-copyright {
+  padding-left: 35px;
+}
+.ba-copyright:before {
+  content: "©";
+}
