@@ -67,7 +67,9 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 7px;
 }
-
+h3{
+	margin: 0;
+}
 .ba-section__border {
   border: 2px solid #000;
   padding: 75px 170px 50px;
@@ -169,10 +171,17 @@ h4 {
 }
 
 .ba-section-img {
-  position: relative;
   margin-bottom: 125px;
+
+  position: relative;
 }
-.ba-post__title {
+.ba-section-img img{
+	
+	
+
+}
+.ba-post__title{
+	position: absolute;
   justify-content: flex-end;
   z-index: 1;
   color: #fff;
